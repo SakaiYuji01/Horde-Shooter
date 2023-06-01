@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    
+
+
+
     private Vector3 playerVelocity;
     private bool groundedPlayer;
     private float playerSpeed = 8.0f;
@@ -22,6 +24,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform cam;
     private AnimatorStateInfo currentBaseState;
 
+
     public float animSpeed = 1.5f;              
     public float lookSmoother = 3.0f;
     public bool useCurves = true;
@@ -31,10 +34,13 @@ public class Player : MonoBehaviour
     float m_y;
     private Vector3 rotate;
 
+
+
     void OnEnable()
     {
         anim.SetBool("IsDeath", false);
     }
+
     void Update()
     {
         rotate = new Vector3(0, m_y * rotateSpeed, 0f);
@@ -51,7 +57,7 @@ public class Player : MonoBehaviour
         
         MovePlayer();
         MovePlayerCamera();
-        if(GetComponent<Damage>().getHealth()    <= 0)
+        if(this.GetComponent<Health>().current_hp <= 0)
         {
             anim.SetBool("IsDeath",true);
             StartCoroutine(ActivationRoutine());
@@ -61,6 +67,7 @@ public class Player : MonoBehaviour
     {
         anim.SetBool(state, b_state);
     }
+
 
 
 
@@ -89,6 +96,6 @@ public class Player : MonoBehaviour
         Time.timeScale = 0;
     }
 
-
+ 
 
 }

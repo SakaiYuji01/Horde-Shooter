@@ -2758,6 +2758,7 @@ GameObject:
   - component: {fileID: 5316555532344292802}
   - component: {fileID: 77769966859064058}
   - component: {fileID: -5995620758939735814}
+  - component: {fileID: -7736645484835112759}
   m_Layer: 0
   m_Name: robotSphere
   m_TagString: Robot
@@ -2812,6 +2813,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 95320324289322388}
+  a_player: {fileID: 0}
+  Max_Health: 3
+  Health: 3
 --- !u!114 &77769966859064058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2824,8 +2828,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11573c27341617447a8512fcc2834019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Max_Health: 3
-  Health: 3
 --- !u!135 &-5995620758939735814
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2839,6 +2841,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.06
   m_Center: {x: 0, y: 0.06, z: 0}
+--- !u!114 &-7736645484835112759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528915638184230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02738b6e04ab2964eb7a1ba100903421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Max_Health: 3
+  current_hp: 3
 --- !u!1 &1533244445735912
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,7 +20,6 @@ public class followmouse : MonoBehaviour
         objectpos = Input.mousePosition;
         objectpos.z = speed;
         transform.position = Camera.main.ScreenToWorldPoint(objectpos);
-        Debug.Log(transform.position);
 
     }
 }

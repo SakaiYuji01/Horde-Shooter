@@ -56,7 +56,7 @@ public class Bullet : MonoBehaviour
     {
         if (other.gameObject.tag == "Robot")
         {
-            other.GetComponent<Damage>().HealthDamage();
+            other.GetComponent<Health>().HealthDamage();
             gameObject.SetActive(false);
         }
 

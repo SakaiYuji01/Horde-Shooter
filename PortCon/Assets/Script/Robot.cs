@@ -10,6 +10,9 @@ public class Robot : MonoBehaviour
     private float speed = 10f;
     private Vector3 distancetocheck = new Vector3 (2f,0,2f);
 
+    [SerializeField] private float Max_Health = 3;
+    [SerializeField] public float Health = 3;
+
     // Start is called before the first frame update
 
     void OnEnable()
@@ -23,6 +26,10 @@ public class Robot : MonoBehaviour
     {
         if(isAlive)
         moverobot();
+        Debug.Log(Health);
+
+        if (Health <= 0)
+            gameObject.SetActive(false);
     }
 
     private void robot_anim()
@@ -64,12 +71,23 @@ public class Robot : MonoBehaviour
         isAlive = false;
     }
 
+    public void HealthDamage()
+    {
+        if (Health > 0)
+        {
+            Health -= 1;
+        }
+
+
+    }
+
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Robot collided");    
         if (other.gameObject.tag == "Player")
         {
-            other.GetComponent<Damage>().HealthDamage();
+            other.GetComponent<Health>().HealthDamage();
+
             other.GetComponent<Animator>().SetBool("IsHurt", true);
             a_player = other.GetComponent<Animator>();
             StartCoroutine(ChangeAnimation(a_player.GetComponent<Animator>()));
