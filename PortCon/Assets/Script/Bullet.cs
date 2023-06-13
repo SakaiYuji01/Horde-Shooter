@@ -9,16 +9,19 @@ public class Bullet : MonoBehaviour
     Vector3 moveDir;
     Vector3 b_target;
     Vector3 directions;
+    private GameObject parent;
 
     void OnEnable()
     {
         StartCoroutine(ActivationRoutine());
     }
 
+
+
     // Start is called before the first frame update
     void Start()
     {
-
+        parent = GameObject.Find("ObjectPool");
     }
 
     // Update is called once per frame
@@ -46,7 +49,7 @@ public class Bullet : MonoBehaviour
 
 
         //Turn the Game Oject back off after 1 sec.
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
 
         //Game object will turn off
         this.gameObject.SetActive(false);
@@ -56,6 +59,8 @@ public class Bullet : MonoBehaviour
     {
         if (other.gameObject.tag == "Robot")
         {
+            AudioClip Robot_hurt = Resources.Load<AudioClip>("Audio/Robot_hurt");
+            SoundManager.play_audio(other.GetComponent<AudioSource>(), Robot_hurt);
             other.GetComponent<Health>().HealthDamage();
             gameObject.SetActive(false);
         }

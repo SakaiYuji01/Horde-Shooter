@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 
     private Vector3 playerVelocity;
     private bool groundedPlayer;
-    private float playerSpeed = 8.0f;
+    private float playerSpeed = 15.0f;
     private float jumpHeight = 5.0f;
     private float gravityValue = -9.81f;
     private Vector3 PlayerMovementInput;
@@ -94,6 +94,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         Time.timeScale = 0;
+        gameObject.SetActive(false);
     }
 
  

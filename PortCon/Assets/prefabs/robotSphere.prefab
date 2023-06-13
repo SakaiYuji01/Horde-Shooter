@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4726673817552320}
   - component: {fileID: 33788390647647172}
   - component: {fileID: 23232455367819712}
+  - component: {fileID: 5105581243331192492}
   m_Layer: 0
   m_Name: bolt3
   m_TagString: Robot
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5105581243331192492
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003221025424366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300066, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1007354229840196
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +107,7 @@ GameObject:
   - component: {fileID: 4758910578103296}
   - component: {fileID: 33581117073369316}
   - component: {fileID: 23141008462287634}
+  - component: {fileID: 2932520031913465946}
   m_Layer: 0
   m_Name: bolt5
   m_TagString: Robot
@@ -162,6 +178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2932520031913465946
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007354229840196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300056, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1053281735150094
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +205,7 @@ GameObject:
   - component: {fileID: 23625218534869158}
   - component: {fileID: 6172587447211148904}
   - component: {fileID: 4611210377180609913}
+  - component: {fileID: 3796797482621675155}
   m_Layer: 0
   m_Name: right_arm
   m_TagString: Robot
@@ -279,6 +310,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300038, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &3796797482621675155
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053281735150094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300038, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1068682732278784
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +336,7 @@ GameObject:
   - component: {fileID: 33536440188300702}
   - component: {fileID: 23449536063904852}
   - component: {fileID: 9211892859645956568}
+  - component: {fileID: 3139547374630028974}
   m_Layer: 0
   m_Name: eyeDome
   m_TagString: Robot
@@ -378,6 +424,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300082, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &3139547374630028974
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068682732278784}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300082, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1078235343884580
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +449,7 @@ GameObject:
   - component: {fileID: 4196942642512040}
   - component: {fileID: 33420168030938944}
   - component: {fileID: 23248176229815728}
+  - component: {fileID: 5196862858103558216}
   m_Layer: 0
   m_Name: bolt7 2
   m_TagString: Robot
@@ -459,6 +520,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5196862858103558216
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078235343884580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300028, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1092549903217196
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +545,7 @@ GameObject:
   - component: {fileID: 4591856166731582}
   - component: {fileID: 33215001046565386}
   - component: {fileID: 23617630887179238}
+  - component: {fileID: 6620960235162784048}
   m_Layer: 0
   m_Name: bolt6 2
   m_TagString: Robot
@@ -540,6 +616,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6620960235162784048
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092549903217196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300034, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1115675440097858
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +641,7 @@ GameObject:
   - component: {fileID: 4475046905835080}
   - component: {fileID: 33956281647706074}
   - component: {fileID: 23461421748796816}
+  - component: {fileID: 5450718506322551115}
   m_Layer: 0
   m_Name: bolt8
   m_TagString: Robot
@@ -621,6 +712,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5450718506322551115
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115675440097858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300058, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1121543103824736
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +738,7 @@ GameObject:
   - component: {fileID: 33693334092331724}
   - component: {fileID: 23577412774978504}
   - component: {fileID: 5982996744638725776}
+  - component: {fileID: 8310814104748828153}
   m_Layer: 0
   m_Name: eyeLid
   m_TagString: Robot
@@ -717,6 +823,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300080, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &8310814104748828153
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121543103824736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300080, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1125078563940878
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4655862465958894}
+  - component: {fileID: 6947862985343087783}
   m_Layer: 0
   m_Name: rear_elbow_jt
   m_TagString: Robot
@@ -749,6 +870,20 @@ Transform:
   m_Father: {fileID: 4745125048089396}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &6947862985343087783
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125078563940878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1127705912109172
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,6 +893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4215031638029298}
+  - component: {fileID: 3900442641536705610}
   m_Layer: 0
   m_Name: right_elbow_jt
   m_TagString: Robot
@@ -781,6 +917,20 @@ Transform:
   m_Father: {fileID: 4745125048089396}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &3900442641536705610
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127705912109172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1136477182564610
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,6 +943,7 @@ GameObject:
   - component: {fileID: 33583217642371646}
   - component: {fileID: 23616640174360338}
   - component: {fileID: 6237730075293435047}
+  - component: {fileID: 2203617356058534351}
   m_Layer: 0
   m_Name: arm2 1
   m_TagString: Robot
@@ -882,6 +1033,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &2203617356058534351
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136477182564610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1162930904400266
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,6 +1058,7 @@ GameObject:
   - component: {fileID: 4522101216730234}
   - component: {fileID: 33350272305619616}
   - component: {fileID: 23419258294058406}
+  - component: {fileID: 1931305456037154019}
   m_Layer: 0
   m_Name: ballJoint2 1
   m_TagString: Robot
@@ -963,6 +1129,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1931305456037154019
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162930904400266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300024, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1183922788193972
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,6 +1155,7 @@ GameObject:
   - component: {fileID: 33714931567092756}
   - component: {fileID: 23718386697649108}
   - component: {fileID: 1840907855201498182}
+  - component: {fileID: 6401657520490697878}
   m_Layer: 0
   m_Name: eyeDome1
   m_TagString: Robot
@@ -1059,6 +1240,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300084, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &6401657520490697878
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183922788193972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300084, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1190259308296600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4639856071649720}
+  - component: {fileID: 6599331229708600079}
   m_Layer: 0
   m_Name: rear_arm_end
   m_TagString: Robot
@@ -1089,6 +1285,20 @@ Transform:
   m_Father: {fileID: 4674840520246238}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &6599331229708600079
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190259308296600}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1221941356422610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1310,7 @@ GameObject:
   - component: {fileID: 4334831634350722}
   - component: {fileID: 33983390146482718}
   - component: {fileID: 23251477059951808}
+  - component: {fileID: 1167735499798109937}
   m_Layer: 0
   m_Name: bolt2 1
   m_TagString: Robot
@@ -1170,6 +1381,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1167735499798109937
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221941356422610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300020, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1229685126053000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,6 +1407,7 @@ GameObject:
   - component: {fileID: 33369257879280342}
   - component: {fileID: 23354731223313820}
   - component: {fileID: 824628017098275461}
+  - component: {fileID: 1873997046766832464}
   m_Layer: 0
   m_Name: r_eye
   m_TagString: Robot
@@ -1266,6 +1492,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300088, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &1873997046766832464
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229685126053000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300088, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1257407352021752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1517,7 @@ GameObject:
   - component: {fileID: 4144370797548212}
   - component: {fileID: 33132723142004850}
   - component: {fileID: 23820036261352272}
+  - component: {fileID: 8007652739618894375}
   m_Layer: 0
   m_Name: bolt1 2
   m_TagString: Robot
@@ -1347,6 +1588,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8007652739618894375
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257407352021752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300042, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1295707506769890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1613,7 @@ GameObject:
   - component: {fileID: 4677786848704736}
   - component: {fileID: 33540517464766152}
   - component: {fileID: 23808978204150694}
+  - component: {fileID: 3229004421766099109}
   m_Layer: 0
   m_Name: bolt1 1
   m_TagString: Robot
@@ -1428,6 +1684,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3229004421766099109
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295707506769890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300016, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1301536238168096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1709,7 @@ GameObject:
   - component: {fileID: 4690692049455272}
   - component: {fileID: 33010269509897176}
   - component: {fileID: 23545950017105826}
+  - component: {fileID: 319426001010073523}
   m_Layer: 0
   m_Name: bolt8 1
   m_TagString: Robot
@@ -1509,6 +1780,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &319426001010073523
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301536238168096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1351442367746040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1805,7 @@ GameObject:
   - component: {fileID: 4057655790946954}
   - component: {fileID: 33635335836638822}
   - component: {fileID: 23846362462286384}
+  - component: {fileID: 2779387300184718545}
   m_Layer: 0
   m_Name: bolt6
   m_TagString: Robot
@@ -1590,6 +1876,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2779387300184718545
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351442367746040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300060, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1361342923083938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,6 +1899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4745125048089396}
+  - component: {fileID: 943544241033417485}
   m_Layer: 0
   m_Name: main_jt
   m_TagString: Robot
@@ -1614,8 +1915,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361342923083938}
   m_LocalRotation: {x: -0.3407749, y: -0.6195744, z: 0.3407749, w: 0.6195744}
-  m_LocalPosition: {x: 6.1629786e-35, y: 0.04616487, z: -1.0507122e-34}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.1629786e-35, y: 1.8665948, z: -1.0507122e-34}
+  m_LocalScale: {x: 40, y: 40, z: 40}
   m_Children:
   - {fileID: 4779165475554914}
   - {fileID: 4483983359667560}
@@ -1625,6 +1926,20 @@ Transform:
   m_Father: {fileID: 4431084402279646}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &943544241033417485
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361342923083938}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1363557860490002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,6 +1953,7 @@ GameObject:
   - component: {fileID: 23173075161234498}
   - component: {fileID: 1925647255602270473}
   - component: {fileID: 5882658654328896998}
+  - component: {fileID: 780458784672431851}
   m_Layer: 0
   m_Name: arm2 2
   m_TagString: Robot
@@ -1741,6 +2057,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300026, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &780458784672431851
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363557860490002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300026, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1365350624552382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,6 +2082,7 @@ GameObject:
   - component: {fileID: 4841226924559642}
   - component: {fileID: 33607560289018356}
   - component: {fileID: 23636370036956926}
+  - component: {fileID: 5473913903542280786}
   m_Layer: 0
   m_Name: bolt1
   m_TagString: Robot
@@ -1822,6 +2153,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5473913903542280786
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365350624552382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300068, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1387113532442184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,6 +2178,7 @@ GameObject:
   - component: {fileID: 4826993272978656}
   - component: {fileID: 8122206776475675352}
   - component: {fileID: 4974431765339156325}
+  - component: {fileID: 335282434923888103}
   m_Layer: 0
   m_Name: left_arm_jt
   m_TagString: Robot
@@ -1884,6 +2230,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!64 &335282434923888103
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387113532442184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1399275316301412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,6 +2256,7 @@ GameObject:
   - component: {fileID: 33545242175480246}
   - component: {fileID: 23041018148824028}
   - component: {fileID: 329436898713587202}
+  - component: {fileID: 6266441375898174332}
   m_Layer: 0
   m_Name: l_eye
   m_TagString: Robot
@@ -1980,6 +2341,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300086, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &6266441375898174332
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399275316301412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300086, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1399398489051200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1991,6 +2366,7 @@ GameObject:
   - component: {fileID: 4881058135489484}
   - component: {fileID: 33657274515184058}
   - component: {fileID: 23832167808471646}
+  - component: {fileID: 6614373075105852176}
   m_Layer: 0
   m_Name: ballJoint2 2
   m_TagString: Robot
@@ -2061,6 +2437,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6614373075105852176
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399398489051200}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300050, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1412804813743846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2074,6 +2464,7 @@ GameObject:
   - component: {fileID: 23927271497399780}
   - component: {fileID: 3853797022596503690}
   - component: {fileID: 3617578070025268474}
+  - component: {fileID: 5944112797373614988}
   m_Layer: 0
   m_Name: left_arm
   m_TagString: Robot
@@ -2178,6 +2569,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300064, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &5944112797373614988
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412804813743846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300064, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1456832829938988
 GameObject:
   m_ObjectHideFlags: 0
@@ -2189,6 +2594,7 @@ GameObject:
   - component: {fileID: 4435810862050652}
   - component: {fileID: 33303260924397902}
   - component: {fileID: 23947563131739210}
+  - component: {fileID: 5284134952817047554}
   m_Layer: 0
   m_Name: bolt7 1
   m_TagString: Robot
@@ -2259,6 +2665,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5284134952817047554
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456832829938988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1476070767280444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,6 +2690,7 @@ GameObject:
   - component: {fileID: 4196829516204898}
   - component: {fileID: 33720991523248134}
   - component: {fileID: 23557466498340020}
+  - component: {fileID: 5331047004408873753}
   m_Layer: 0
   m_Name: bolt4 1
   m_TagString: Robot
@@ -2340,6 +2761,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5331047004408873753
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476070767280444}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300018, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1491944993176060
 GameObject:
   m_ObjectHideFlags: 0
@@ -2351,6 +2786,7 @@ GameObject:
   - component: {fileID: 4053035925769626}
   - component: {fileID: 33474528108298548}
   - component: {fileID: 23223976227290862}
+  - component: {fileID: 3260823852840198721}
   m_Layer: 0
   m_Name: bolt3 2
   m_TagString: Robot
@@ -2421,6 +2857,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3260823852840198721
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491944993176060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300040, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1495430637740604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,6 +2882,7 @@ GameObject:
   - component: {fileID: 4718250646533942}
   - component: {fileID: 33138205056902422}
   - component: {fileID: 23011720359041550}
+  - component: {fileID: 7635719891328377552}
   m_Layer: 0
   m_Name: ballJoint2
   m_TagString: Robot
@@ -2502,6 +2953,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7635719891328377552
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495430637740604}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300076, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1519388695029330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,6 +2978,7 @@ GameObject:
   - component: {fileID: 4407940469326384}
   - component: {fileID: 33154994210650578}
   - component: {fileID: 23011184732769776}
+  - component: {fileID: 7231362545882304335}
   m_Layer: 0
   m_Name: left_plate
   m_TagString: Robot
@@ -2583,6 +3049,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7231362545882304335
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519388695029330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300062, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1522709418472752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +3074,7 @@ GameObject:
   - component: {fileID: 4685012559308966}
   - component: {fileID: 33194143446360778}
   - component: {fileID: 23559295829578834}
+  - component: {fileID: 4179809106798460026}
   m_Layer: 0
   m_Name: bolt5 1
   m_TagString: Robot
@@ -2664,6 +3145,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4179809106798460026
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522709418472752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1528414366607140
 GameObject:
   m_ObjectHideFlags: 0
@@ -2675,6 +3170,7 @@ GameObject:
   - component: {fileID: 4651549520199938}
   - component: {fileID: 33547606101170968}
   - component: {fileID: 23576180196744572}
+  - component: {fileID: 6366314475304267646}
   m_Layer: 0
   m_Name: bolt3 1
   m_TagString: Robot
@@ -2745,6 +3241,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6366314475304267646
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528414366607140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300014, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1528915638184230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2756,9 +3266,9 @@ GameObject:
   - component: {fileID: 4431084402279646}
   - component: {fileID: 95320324289322388}
   - component: {fileID: 5316555532344292802}
-  - component: {fileID: 77769966859064058}
-  - component: {fileID: -5995620758939735814}
-  - component: {fileID: -7736645484835112759}
+  - component: {fileID: 4767121082493230328}
+  - component: {fileID: 6488706338560555218}
+  - component: {fileID: 5387401438927669054}
   m_Layer: 0
   m_Name: robotSphere
   m_TagString: Robot
@@ -2774,10 +3284,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528915638184230}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18393, y: 0.02, z: -0.0021059}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 40, y: 40, z: 40}
   m_Children:
   - {fileID: 4745125048089396}
+  - {fileID: 2605293157320704237}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2814,21 +3325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 95320324289322388}
   a_player: {fileID: 0}
-  Max_Health: 3
-  Health: 3
---- !u!114 &77769966859064058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528915638184230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11573c27341617447a8512fcc2834019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!135 &-5995620758939735814
+--- !u!135 &4767121082493230328
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2840,8 +3337,8 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.06
-  m_Center: {x: 0, y: 0.06, z: 0}
---- !u!114 &-7736645484835112759
+  m_Center: {x: 0, y: 0.05, z: 0}
+--- !u!114 &6488706338560555218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2855,6 +3352,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Max_Health: 3
   current_hp: 3
+  _healthbar: {fileID: 2605293158185757483}
+--- !u!82 &5387401438927669054
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528915638184230}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.25
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1533244445735912
 GameObject:
   m_ObjectHideFlags: 0
@@ -2864,6 +3458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4215550983232042}
+  - component: {fileID: 8810193366661420903}
   m_Layer: 0
   m_Name: left_elbow_jt
   m_TagString: Robot
@@ -2887,6 +3482,20 @@ Transform:
   m_Father: {fileID: 4745125048089396}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8810193366661420903
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533244445735912}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1543170318459224
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,6 +3507,7 @@ GameObject:
   - component: {fileID: 4853887188526614}
   - component: {fileID: 33319012419705058}
   - component: {fileID: 23364564230740332}
+  - component: {fileID: 2459426792870645909}
   m_Layer: 0
   m_Name: bolt2
   m_TagString: Robot
@@ -2968,6 +3578,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2459426792870645909
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543170318459224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300072, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1546433115594470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,6 +3603,7 @@ GameObject:
   - component: {fileID: 4174267712483794}
   - component: {fileID: 33211312027982200}
   - component: {fileID: 23480163185556146}
+  - component: {fileID: 5373291529440678519}
   m_Layer: 0
   m_Name: ballJoint1
   m_TagString: Robot
@@ -3049,6 +3674,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5373291529440678519
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546433115594470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300074, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1583647332928166
 GameObject:
   m_ObjectHideFlags: 0
@@ -3060,6 +3699,7 @@ GameObject:
   - component: {fileID: 4869174641832456}
   - component: {fileID: 33989400261212258}
   - component: {fileID: 23203874358357270}
+  - component: {fileID: 8324797345289012357}
   m_Layer: 0
   m_Name: bolt8 2
   m_TagString: Robot
@@ -3130,6 +3770,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8324797345289012357
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583647332928166}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300032, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1586184751890682
 GameObject:
   m_ObjectHideFlags: 0
@@ -3139,6 +3793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4108043153330554}
+  - component: {fileID: 543405254591840681}
   m_Layer: 0
   m_Name: right_arm_jt
   m_TagString: Robot
@@ -3162,6 +3817,20 @@ Transform:
   m_Father: {fileID: 4215031638029298}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &543405254591840681
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586184751890682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1637261531500118
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +3842,7 @@ GameObject:
   - component: {fileID: 4106270328389370}
   - component: {fileID: 33631712489001880}
   - component: {fileID: 23620570142910490}
+  - component: {fileID: 892374041270180356}
   m_Layer: 0
   m_Name: ballJoint1 2
   m_TagString: Robot
@@ -3243,6 +3913,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &892374041270180356
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637261531500118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300048, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1639841557180942
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,6 +3938,7 @@ GameObject:
   - component: {fileID: 4191797093367718}
   - component: {fileID: 33725419754362532}
   - component: {fileID: 23052131152780014}
+  - component: {fileID: 5147492296825049947}
   m_Layer: 0
   m_Name: bolt4 2
   m_TagString: Robot
@@ -3324,6 +4009,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5147492296825049947
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639841557180942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300044, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1641869330588884
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,6 +4036,7 @@ GameObject:
   - component: {fileID: 23776756412539786}
   - component: {fileID: 1306751423650305738}
   - component: {fileID: 901252723116871103}
+  - component: {fileID: 2678048131136706019}
   m_Layer: 0
   m_Name: rear_arm
   m_TagString: Robot
@@ -3441,6 +4141,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300012, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &2678048131136706019
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641869330588884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300012, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1659453755552060
 GameObject:
   m_ObjectHideFlags: 0
@@ -3452,6 +4166,7 @@ GameObject:
   - component: {fileID: 4278862560668220}
   - component: {fileID: 33210554886153462}
   - component: {fileID: 23251527099058266}
+  - component: {fileID: 1011535909132688981}
   m_Layer: 0
   m_Name: right_plate
   m_TagString: Robot
@@ -3522,6 +4237,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1011535909132688981
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659453755552060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300036, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1688514203954746
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,6 +4263,7 @@ GameObject:
   - component: {fileID: 33180112982737676}
   - component: {fileID: 23807701781441998}
   - component: {fileID: 5103825363972687186}
+  - component: {fileID: 4101399228480358697}
   m_Layer: 0
   m_Name: body
   m_TagString: Robot
@@ -3619,6 +4349,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300078, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!64 &4101399228480358697
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688514203954746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300078, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1697516419629582
 GameObject:
   m_ObjectHideFlags: 0
@@ -3630,6 +4374,7 @@ GameObject:
   - component: {fileID: 4416772672004470}
   - component: {fileID: 33721884052331868}
   - component: {fileID: 23037635175129584}
+  - component: {fileID: 3138833840893776924}
   m_Layer: 0
   m_Name: bolt7
   m_TagString: Robot
@@ -3700,6 +4445,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3138833840893776924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697516419629582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300054, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1732229205268776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3711,6 +4470,7 @@ GameObject:
   - component: {fileID: 4209491590705782}
   - component: {fileID: 33375034166280942}
   - component: {fileID: 23436638115554154}
+  - component: {fileID: 3725781050454358651}
   m_Layer: 0
   m_Name: bolt4
   m_TagString: Robot
@@ -3781,6 +4541,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3725781050454358651
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732229205268776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300070, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1759872719172302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,6 +4566,7 @@ GameObject:
   - component: {fileID: 4133622089996044}
   - component: {fileID: 33780115498779470}
   - component: {fileID: 23185389674781118}
+  - component: {fileID: 3973298877525946298}
   m_Layer: 0
   m_Name: arm2
   m_TagString: Robot
@@ -3867,6 +4642,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3973298877525946298
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759872719172302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300052, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1759942847806846
 GameObject:
   m_ObjectHideFlags: 0
@@ -3878,6 +4667,7 @@ GameObject:
   - component: {fileID: 4029334511570722}
   - component: {fileID: 33079722326800400}
   - component: {fileID: 23821539046061350}
+  - component: {fileID: 804761964406087025}
   m_Layer: 0
   m_Name: rear_plate
   m_TagString: Robot
@@ -3948,6 +4738,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &804761964406087025
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759942847806846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300010, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1805114280926698
 GameObject:
   m_ObjectHideFlags: 0
@@ -3957,6 +4761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4674840520246238}
+  - component: {fileID: 8644006334196606889}
   m_Layer: 0
   m_Name: rear_arm_jt
   m_TagString: Robot
@@ -3980,6 +4785,20 @@ Transform:
   m_Father: {fileID: 4655862465958894}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8644006334196606889
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805114280926698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1830062600140480
 GameObject:
   m_ObjectHideFlags: 0
@@ -3991,6 +4810,7 @@ GameObject:
   - component: {fileID: 4217716643652464}
   - component: {fileID: 33318643240173886}
   - component: {fileID: 23984914313475742}
+  - component: {fileID: 2683104539525252560}
   m_Layer: 0
   m_Name: ballJoint1 1
   m_TagString: Robot
@@ -4061,6 +4881,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2683104539525252560
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830062600140480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300022, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1837835325504852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4070,6 +4904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4516558648252048}
+  - component: {fileID: 6959206560609189534}
   m_Layer: 0
   m_Name: left_arm_end
   m_TagString: Robot
@@ -4091,6 +4926,20 @@ Transform:
   m_Father: {fileID: 4826993272978656}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &6959206560609189534
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837835325504852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1850246015791538
 GameObject:
   m_ObjectHideFlags: 0
@@ -4102,6 +4951,7 @@ GameObject:
   - component: {fileID: 4772000335088816}
   - component: {fileID: 33908764951950544}
   - component: {fileID: 23889038763121540}
+  - component: {fileID: 1699129654003237134}
   m_Layer: 0
   m_Name: bolt6 1
   m_TagString: Robot
@@ -4172,6 +5022,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1699129654003237134
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850246015791538}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300008, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1909312303648008
 GameObject:
   m_ObjectHideFlags: 0
@@ -4181,6 +5045,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4759317234603524}
+  - component: {fileID: 204781647224872481}
   m_Layer: 0
   m_Name: right_arm_end
   m_TagString: Robot
@@ -4202,6 +5067,20 @@ Transform:
   m_Father: {fileID: 4108043153330554}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &204781647224872481
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909312303648008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1961916368641318
 GameObject:
   m_ObjectHideFlags: 0
@@ -4213,6 +5092,7 @@ GameObject:
   - component: {fileID: 4164049693618740}
   - component: {fileID: 33196923997988470}
   - component: {fileID: 23212396164904244}
+  - component: {fileID: 659279334374497808}
   m_Layer: 0
   m_Name: bolt2 2
   m_TagString: Robot
@@ -4283,6 +5163,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &659279334374497808
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961916368641318}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300046, guid: bff429107601444d59c67940e6ad78c4, type: 3}
 --- !u!1 &1972368657453736
 GameObject:
   m_ObjectHideFlags: 0
@@ -4294,6 +5188,7 @@ GameObject:
   - component: {fileID: 4185075842469952}
   - component: {fileID: 33956265550967836}
   - component: {fileID: 23197181916019728}
+  - component: {fileID: 9035267688311616603}
   m_Layer: 0
   m_Name: bolt5 2
   m_TagString: Robot
@@ -4364,3 +5259,158 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9035267688311616603
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972368657453736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300030, guid: bff429107601444d59c67940e6ad78c4, type: 3}
+--- !u!1001 &7398407727871151726
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4431084402279646}
+    m_Modifications:
+    - target: {fileID: 4795120788777280842, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650689, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 962
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790059650695, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_Name
+      value: healthbar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790193826312, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795120790193826312, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+--- !u!224 &2605293157320704237 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4795120790059650691, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+  m_PrefabInstance: {fileID: 7398407727871151726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2605293158185757483 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4795120788777280837, guid: 4ba28f42ee65ea44794fa582a670a3fe, type: 3}
+  m_PrefabInstance: {fileID: 7398407727871151726}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f782a1fccabf5b2478fc1f71471481b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

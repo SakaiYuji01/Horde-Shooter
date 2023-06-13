@@ -8,13 +8,20 @@ public class Health : MonoBehaviour
     [SerializeField] private float Max_Health = 3;
     [SerializeField] public float current_hp = 3;
 
+    [SerializeField] private Healthbar _healthbar;
+
     void OnEnable()
     {
+        current_hp = 3;
+        _healthbar.UpdateHealthBar(current_hp);
+        _healthbar.setHealthBar(Max_Health, current_hp);
         current_hp = Max_Health;
     }
     // Start is called before the first frame update
     void Start()
     {
+        current_hp = Max_Health;
+        _healthbar.setHealthBar(Max_Health, current_hp);
         
     }
 
@@ -22,8 +29,17 @@ public class Health : MonoBehaviour
     void Update()
     {
         if (current_hp <= 0)
-            gameObject.SetActive(false);
+        {
+            if (gameObject.tag != "Player")
+                gameObject.SetActive(false);
+
+            AudioClip player_death = Resources.Load<AudioClip>("Audio/player_death");
+            SoundManager.play_audio_onshot(GetComponent<AudioSource>(), player_death);
+           
+        }
+           
     }
+
     public float getHP()
     {
         return current_hp;
@@ -35,10 +51,13 @@ public class Health : MonoBehaviour
         if (current_hp > 0)
         {
             current_hp -= 1;
+            _healthbar.UpdateHealthBar(current_hp);
         }
 
 
     }
+
+
 
 
 }

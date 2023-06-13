@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class SoundManager : MonoBehaviour
 {
 
-    public static GameManager Instance { get; private set; }
+    public static SoundManager Instance { get; private set; }
 
     private void Awake()
     {
@@ -21,17 +21,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    [SerializeField] private GameObject WaveManager;
-
-    // Start is called before the first frame update
-    void Start()
+   public static void play_audio(AudioSource audio, AudioClip toplay)
     {
-        WaveManager.SetActive(true);
+        audio.Stop();
+        audio.clip = toplay;
+        audio.Play();
     }
 
-    // Update is called once per frame
-    void Update()
+    public static void play_audio_onshot(AudioSource audio, AudioClip toplay)
     {
-        
+        audio.PlayOneShot(toplay ,0.10f);
     }
 }
