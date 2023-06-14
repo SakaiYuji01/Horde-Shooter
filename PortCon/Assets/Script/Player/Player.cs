@@ -19,7 +19,6 @@ public class Player : MonoBehaviour
     [SerializeField] private CharacterController controller;
 
 
-
     [SerializeField] private Animator anim;
     [SerializeField] private Transform cam;
     private AnimatorStateInfo currentBaseState;

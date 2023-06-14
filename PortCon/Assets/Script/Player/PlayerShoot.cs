@@ -9,7 +9,9 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField]  Transform debugTransform;
     [SerializeField] private Transform Bulletpoint;
     [SerializeField] private LayerMask aimColliderLayerMask = new LayerMask();
-   int bulletcount = 8;
+
+    [SerializeField] private AudioSource audio;
+    int bulletcount = 8;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +29,7 @@ public class PlayerShoot : MonoBehaviour
         if (Input.GetKey(KeyCode.R))
         {
             AudioClip gun_reload = Resources.Load<AudioClip>("Audio/gun_reload");
-            SoundManager.play_audio(this.GetComponent<AudioSource>(), gun_reload);
+            SoundManager.play_audio(audio, gun_reload);
             bulletcount = 8;
         }
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -49,7 +51,7 @@ public class PlayerShoot : MonoBehaviour
         if(bulletcount > 0)
         {
             AudioClip gun_shoot = Resources.Load<AudioClip>("Audio/gun_shoot");
-            SoundManager.play_audio(this.GetComponent<AudioSource>(), gun_shoot);
+            SoundManager.play_audio(audio, gun_shoot);
 
             O_Bullet = PoolManager.SharedInstance.GetPooledObject("Bullet");
 
